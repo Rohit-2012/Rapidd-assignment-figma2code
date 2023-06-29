@@ -1,0 +1,48 @@
+.posterBox {
+  display: flex;
+  width: 20%;
+  height: 10rem;
+  padding: 2rem;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 0 0;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.75) 100%
+    ),
+    url("https://images.unsplash.com/photo-1498358498068-4f10bd19665d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80")
+      center/cover no-repeat;
+  color: white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex: 1 0 0;
+}
+.text{
+    display: flex;
+width: 12.75rem;
+flex-direction: column;
+color: white;
+font-size: 20px;
+font-weight: 900;
+}
+.content div {
+  border: 2px solid white;
+  width: 1.5rem;
+}
+button {
+  width: 7rem;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.75rem 1.12rem;
+  font-size: 16px;
+  gap: 0.5rem;
+}

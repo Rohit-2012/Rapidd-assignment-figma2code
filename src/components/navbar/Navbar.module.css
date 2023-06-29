@@ -1,36 +1,37 @@
 .navBox {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
   flex: 1 0 0;
   background-color: white;
   position: relative;
 }
 .ddMenu{
   position: absolute;
-  top: 76px;
+  top: 4.75rem;
+  width: 100%;
 }
 .navBox img {
-  width: 160px;
-  height: 72px;
+  width: 10rem;
+  height: 4.5rem;
 }
 .navBox ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
   flex: 1 0 0;
 }
 .navItem {
   display: flex;
-  padding: 24px;
+  padding: 1.5rem;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   align-self: stretch;
   color: #666;
   font-size: 18px;
   font-family: Montserrat;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 150%;
   position: relative;
   cursor: pointer;

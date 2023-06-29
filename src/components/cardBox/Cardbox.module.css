@@ -1,0 +1,32 @@
+.mainBox{
+    background-color: white;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+.heading span {
+  color:  #262628;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+}
+.heading a {
+  color: #003057;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-decoration-line: underline;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap:wrap;
+}

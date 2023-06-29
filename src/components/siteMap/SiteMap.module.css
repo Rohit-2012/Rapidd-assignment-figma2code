@@ -1,0 +1,46 @@
+.mainBox {
+  background-color: white;
+  margin-top: 2rem;
+  height: 15rem;
+  display: flex;
+  padding: 3rem 10rem;
+  align-items: flex-start;
+  gap: 15rem;
+}
+.innerBox{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.heading {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  width: 100%;
+}
+.listItems {
+  display: flex;
+  height: 12rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem 5em;
+  flex: 1 0 0;
+  color: #666666;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.links span{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: #003057;
+  cursor: pointer;
+}

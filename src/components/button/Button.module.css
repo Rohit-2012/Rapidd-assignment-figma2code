@@ -1,12 +1,24 @@
 .outerBox {
   display: flex;
-  height: 72px;
-  justify-content: center;
+  height: 3rem;
+  width: 10rem;
+  justify-content: space-around;
   align-items: center;
-  padding: 2rem;
-  gap: 8px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #003057;
 }
-.btnIcon{
-display: flex;
-align-items: center;
+.outerBox span {
+  color: #003057;
+  font-weight: 100;
+}
+.outerBox:hover {
+  background-color: #003057;
+}
+.outerBox:hover span {
+  color: white;
+}
+.btnIcon {
+  display: flex;
+  align-items: center;
 }

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+.mainBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  height: 29.204rem;
+}
+.leftBanner {
+  background: url("https://images.unsplash.com/photo-1587400364540-b78883d60470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80")
+    center/cover no-repeat;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.links {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  width: 100%;
+}
+.links span {
+  display: flex;
+  align-items: center;
+  color: #003057;
+  font-weight: 700;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.rightBanner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.headings {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 0 0;
+  align-self: stretch;
+  background-color: white;
+}
+.imageDiv {
+  background: url("https://images.unsplash.com/photo-1444526110212-06a94d9a473c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=929&q=80")
+    no-repeat center;
+  display: flex;
+  height: 10.102rem;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+.bold {
+  color: var(--brand-colors-bg-color-primary, #003057);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 125%;
+}
+.rightBanner a {
+  color: #003057;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-decoration-line: underline;
+  height: 2.313rem;
+  width: 9.688rem;
+}
+.bottom {
+  background: white;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  padding: 1rem;
+}
+.bottom button {
+  background-color: #003057;
+  border: none;
+  border-radius: 3rem;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 1;
+  align-items: center;
+  height: 2.313rem;
+  width: 35%;
+  cursor: pointer;
+}

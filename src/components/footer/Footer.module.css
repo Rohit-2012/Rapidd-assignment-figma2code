@@ -1,0 +1,13 @@
+.footerBox{
+    background-color: #003057;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    color: white;
+    gap: 0.5rem;
+}
+.footerBox h1{
+    margin-bottom: 1rem;
+}

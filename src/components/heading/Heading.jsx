@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Heading.module.css'
 import Button from '../button/Button'
 import {PiLinkBold} from 'react-icons/pi'
+import {LiaEnvelopeSolid} from 'react-icons/lia'
+import {HiOutlineLocationMarker} from 'react-icons/hi'
 
 function Heading() {
   return (
@@ -13,9 +15,9 @@ function Heading() {
     <div className={styles.bottom}>
       <span>Minim modi yet omnis nor quia so minima.</span>
       <div className={styles.headBtn}>
-      <Button icon={<PiLinkBold/>} text={'Ipsum Lorem'} iconColor={'#003057'} textColor={'#003057'}/>
+      <Button icon={<LiaEnvelopeSolid/>} text={'Ipsum Lorem'}/>
       <Button icon={<PiLinkBold/>} text={'Ipsum Lorem'}/>
-      <Button icon={<PiLinkBold/>} text={'Ipsum Lorem'}/>
+      <Button icon={<HiOutlineLocationMarker/>} text={'Ipsum Lorem'}/>
       </div>
     </div>
     </>

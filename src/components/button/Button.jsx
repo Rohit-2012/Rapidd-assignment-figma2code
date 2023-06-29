@@ -1,10 +1,10 @@
 import React from 'react'
 import style from './Button.module.css'
-function Button({icon, text, iconColor, textColor}) {
+function Button({icon, text}) {
   return (
     <button className={style.outerBox}>
-        <span style={{color:iconColor, fontSize:'24px'}} className={style.btnIcon}>{icon}</span>
-        <span style={{color:textColor, fontSize:'18px'}}>{text}</span>
+        <span style={{ fontSize:'18px'}} className={style.btnIcon}>{icon}</span>
+        <span style={{ fontSize:'14px'}}>{text}</span>
     </button>
   )
 }
