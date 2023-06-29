@@ -1,0 +1,27 @@
+.headingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  color: #003057;
+  font-size: 48px;
+  line-height: 125%;
+}
+.bold {
+  font-weight: bold;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom span{
+  font-size: 16px;
+  color:  #262628;
+  font-weight: 700;
+}
+.headBtn {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+}
