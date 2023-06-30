@@ -1,7 +1,14 @@
 .posterContainer {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 1rem;
-  width: 100%;
+  /* width: 100%; */
+}
+
+@media screen and (max-width:830px) {
+  .posterContainer{
+    flex-direction: column;
+    width: 100%;
+  }
 }

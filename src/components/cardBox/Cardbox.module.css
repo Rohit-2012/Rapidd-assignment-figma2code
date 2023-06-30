@@ -30,3 +30,19 @@
     gap: 1rem;
     flex-wrap:wrap;
 }
+
+@media screen and (max-width:700px) {
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading{
+    padding: 0.4rem;
+  }
+  .heading a{
+    font-size: 12px;
+  }
+  .heading span{
+    font-size: 18px;
+  }
+}

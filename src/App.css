@@ -2,5 +2,22 @@
     margin: 0 5rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
+}
+.navBar{
+    margin: 0 5rem;
+}
+@media screen and (max-width:830px){
+    .main{
+        margin: 0 1.5rem;
+    }
+    .navBar{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:500px){
+    .main{
+        margin: 0;
+    }
 }

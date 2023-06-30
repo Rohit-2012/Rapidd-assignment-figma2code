@@ -10,7 +10,8 @@
 }
 .outerBox span {
   color: #003057;
-  font-weight: 100;
+  font-size: 12x;
+  font-weight: 400;
 }
 .outerBox:hover {
   background-color: #003057;
@@ -21,4 +22,10 @@
 .btnIcon {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width:710px) {
+  .outerBox span{
+    width: auto;
+  }
 }

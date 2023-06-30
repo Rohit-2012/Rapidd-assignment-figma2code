@@ -9,8 +9,7 @@ function Heading() {
   return (
     <>
     <div className={styles.headingDiv}>
-      <span>Proident anim&nbsp;</span> 
-      <span className={styles.bold}>nor nulla iste.</span>
+      <span>Proident anim <span className={styles.bold}>nor nulla iste.</span></span> 
     </div>
     <div className={styles.bottom}>
       <span>Minim modi yet omnis nor quia so minima.</span>

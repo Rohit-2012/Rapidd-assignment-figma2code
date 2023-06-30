@@ -5,7 +5,7 @@ function Footer() {
     <div className={style.footerBox}>
       <h1>Minima ad for vitae sit</h1>
       <span>Numquam. Esse aliquip do, magni.</span>
-      <span>Aut proident and voluptate sunt quisquam so voluptate nemo</span>
+      <span className={style.bottom}>Aut proident and voluptate sunt quisquam so voluptate nemo</span>
     </div>
   )
 }

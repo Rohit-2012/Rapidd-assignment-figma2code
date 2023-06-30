@@ -1,11 +1,12 @@
 .headingDiv {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   margin: 2rem;
   color: #003057;
   font-size: 48px;
-  line-height: 125%;
+  text-align: center;
 }
 .bold {
   font-weight: bold;
@@ -24,4 +25,27 @@
   display: flex;
   align-items: flex-start;
   gap: 17px;
+}
+
+@media screen and (max-width:939px) {
+  .headingDiv{
+    font-size: 40px;
+  }
+  .bottom{
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width:708px) {
+  .headingDiv{
+    font-size: 30px;
+  }
+  .bottom span{
+    width: 70%;
+    text-align: center;
+  }
+  .headBtn{
+    flex-direction: column;
+  }
 }

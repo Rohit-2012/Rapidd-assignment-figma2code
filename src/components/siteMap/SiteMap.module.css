@@ -1,23 +1,27 @@
 .mainBox {
   background-color: white;
   margin-top: 2rem;
-  height: 15rem;
+  /* height: 100%; */
   display: flex;
-  padding: 3rem 10rem;
+  padding: 3rem 6rem;
   align-items: flex-start;
   gap: 15rem;
+  justify-content: center;
 }
-.innerBox{
+.innerBox, .hidden{
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
     gap: 1.5rem;
+    /* width: 100%; */
 }
 .heading {
   color: #000;
   font-size: 16px;
   font-style: normal;
   font-weight: 900;
-  width: 100%;
+  /* width: 100%; */
 }
 .listItems {
   display: flex;
@@ -25,7 +29,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 1.5rem 5em;
+  gap: 1.5rem 5rem;
   flex: 1 0 0;
   color: #666666;
 }
@@ -44,3 +48,60 @@
   color: #003057;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1176px) {
+  .mainBox {
+    padding: 1rem;
+    /* justify-content: center;
+    gap: 10rem; */
+  }
+}
+@media screen and (max-width:994px) {
+  .mainBox{
+    gap: 8rem;
+  }
+  .listItems, .links span, .heading{
+    font-size: 14px;
+  }
+  .listItems{
+    gap: 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width:700px){
+  .mainBox {
+    margin-top: 2rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .hidden{
+    display: none;
+  }
+  .innerBox{
+    display: flex;
+    flex-direction: column;;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  .links{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    flex-wrap: wrap;
+  }
+  .listItems{
+    gap: 1.5rem 0;
+    width: 100%;
+    align-items: center;
+  }
+}
+

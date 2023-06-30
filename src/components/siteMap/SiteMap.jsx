@@ -16,7 +16,7 @@ function SiteMap() {
         })}
         </div>
       </div>
-      <div className={style.innerBox}>
+      <div className={style.hidden}>
         <span className={style.heading}>Quia so minima</span>
         <div className={style.listItems}>
         {listArr.map((ele, index)=>{
